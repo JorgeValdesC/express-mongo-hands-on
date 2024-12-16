@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 
 // Conexión a MongoDB Atlas
 const MONGODB_ATLAS_URI =
-    "mongodb+srv://fjbanezares:Pepito123@cluster0.n87gd.mongodb.net/carDatabase?retryWrites=true&w=majority";
+    "mongodb+srv://JorgeVC33:UFVDB@cluster0.idtff.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(MONGODB_ATLAS_URI, {
     useNewUrlParser: true,
